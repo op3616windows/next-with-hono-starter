@@ -5,7 +5,7 @@ export const UserForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    createUser.mutate({ name: "Jo", email: "john@example.com" });
+    createUser.mutate({ name: "Joe", email: "john@example.com" });
   };
 
   return (
